@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+  }
+  
+  .gradient {
+    background-image: linear-gradient(
+      to right,
+      #b4a0cd,
+      #a38bc4,
+      #9277bb,
+      #8063b2,
+      #6e4fa9,
+      #6b4ba6,
+      #6747a2,
+      #64439f,
+      #6f4ea1,
+      #7859a2,
+      #8165a4,
+      #8a70a6
+    );
+  }
+  
+  .copy {
+    width: 5rem;
+  }
