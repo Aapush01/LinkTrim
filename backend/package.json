@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts":{
+  "scripts": {
     "start": "tsc && node dist/app.js",
     "dev": "nodemon src/app.ts"
   },
@@ -11,7 +11,11 @@
   "author": "Muhammad Shahid",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.0"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "nanoid": "^5.0.7"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
