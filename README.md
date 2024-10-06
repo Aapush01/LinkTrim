@@ -2,8 +2,6 @@
 
 **LinkTrim** is a simple and efficient URL shortener built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to shorten long URLs, making them easier to share and manage. The backend API handles URL shortening and redirection, while the frontend provides a user-friendly interface to interact with the service.
 
-This project is open to contributions as part of **Hacktoberfest 2024**! We welcome anyone interested in helping to improve the platform.
-
 ## Table of Contents
 
 - [Tech Stack](#tech-stack)
@@ -20,7 +18,7 @@ This project is open to contributions as part of **Hacktoberfest 2024**! We welc
 - **Frontend:** React, JavaScript, CSS
 - **Backend:** Node.js, Express, MongoDB
 - **Database:** MongoDB
-- **Authentication:** N/A (public URL shortening service)
+
 
 ## Features
 
@@ -96,7 +94,7 @@ I am excited to have you contribute to LinkTrim! Please follow these guidelines 
 ### Code Style
 
 - Follow standard JavaScript best practices.
-- Use CSS for styling.
+- Use Tailwind CSS for styling.
 - Make sure code is well-documented.
 
 ### Testing
