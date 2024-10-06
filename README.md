@@ -60,20 +60,23 @@ To set up the project locally, ensure you have the following installed:
       ```bash
       NODE_ENV=development
       PORT=5000
-      MONGO_URI=your_mongodb_connection_string
+      MongoDB_URL=your_mongodb_connection_string
       BASE_URL=https://linktrim-ts01.onrender.com
-      
+
+    Create a .env file in the backend directory with the following variables:
+      ```bash
+      VITE_SERVER_URL="Your_Backend_URL"   
 5. Start the backend server:
      ```bash
      cd backend
-     npm start
+     npm run dev
      ```
    This will start the Express.js server at http://localhost:5000.
      
 6. Start the frontend server:
     ```bash
     cd ../frontend
-    npm start
+    npm run dev
     ```
     This will start the frontend at http://localhost:3000.
     
