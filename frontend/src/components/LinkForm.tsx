@@ -83,7 +83,7 @@ const LinkForm: React.FunctionComponent<ILinkFormProps> = () => {
       ) : shortUrl ? (
         <div className="relative gradient p-2 md:p-10 md:py-14 m-10 rounded-md justify-between items-center bg-[#7976aa] md:w-full max-w-4xl mx-auto">
           <div className="flex justify-between items-center">
-            <h1 className="p-2 text-white md:text-2xl text-left font-bold">{`${serverUrl}/${shortUrl}`}</h1>
+            <h1 className="p-2 text-white md:text-2xl text-left font-bold">{`${shortUrl}`}</h1>
 
             <img
               width="30"
