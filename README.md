@@ -57,15 +57,16 @@ To set up the project locally, ensure you have the following installed:
 4. Set up the environment variables: 
     
    Create a .env file in the backend directory with the following variables:
-      ```bash
-      NODE_ENV=development
+      ```bash 
       PORT=5000
       MongoDB_URL=your_mongodb_connection_string
       BASE_URL=https://linktrim-ts01.onrender.com
+      ```
 
-    Create a .env file in the backend directory with the following variables:
+    Create a .env file in the frontend directory with the following variables:
       ```bash
-      VITE_SERVER_URL="Your_Backend_URL"   
+      VITE_SERVER_URL="Your_Backend_URL"  
+      ``` 
 5. Start the backend server:
      ```bash
      cd backend
