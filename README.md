@@ -15,7 +15,7 @@
 
 ## Tech Stack
 
-- **Frontend:** React, JavaScript, CSS
+- **Frontend:** React, TypeScript,  Tailwind-CSS
 - **Backend:** Node.js, Express, MongoDB
 - **Database:** MongoDB
 
